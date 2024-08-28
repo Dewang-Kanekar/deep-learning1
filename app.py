@@ -5,7 +5,10 @@ import streamlit as st
 import numpy as np 
 
 st.header('Image Classification Model')
-model = load_model('C:\\Users\\dkkan\\Downloads\\project1\\Image_classification\\Image_classify.keras')
+"""here in model variable you need to give location of your train model, i train model using jupyter notebook , so i attached .ipynb file, you can use any other
+code editor, but in my recommendation jupyter is one of the best for this learning model processes. """
+
+model = load_model('D:\\Downloads\\project1\\Image_classification\\Image_classify.keras')  #here give location of your model
 data_cat = ['apple',
  'banana',
  'beetroot',
